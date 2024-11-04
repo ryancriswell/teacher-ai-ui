@@ -10,7 +10,8 @@ const PdfViewer = ({ pdfUrl }) => (
     href={pdfUrl}
     target="_blank"
     rel="noopener noreferrer"
-    style={{ marginTop: 20 }}
+    fullWidth
+    style={{ marginTop: '20px' }}
   >
     View PDF
   </Button>

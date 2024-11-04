@@ -1,13 +1,14 @@
 import React from 'react';
 import { TextField } from '@mui/material';
 
-const PromptInput = ({ onChange }) => (
+const ImageThemeInput = ({ onChange }) => (
   <TextField
-    label="Enter Prompt"
+    label="Enter Theme (ex. Thanksgiving)"
+    variant="outlined"
     fullWidth
     margin="normal"
     onChange={(e) => onChange(e.target.value)}
   />
 );
 
-export default PromptInput;
+export default ImageThemeInput;
